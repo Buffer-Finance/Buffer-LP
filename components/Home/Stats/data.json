@@ -1,0 +1,22 @@
+{
+  "supply": {
+    "circulating_supply": 7244193.98,
+    "max_supply": 100000000.0,
+    "circulating_supply_percentage": 7.24
+  },
+  "valuation": {
+    "current_price": 0.249,
+    "last_24h_price_change": -3.64,
+    "volume": 381203,
+    "market_cap": 1803804.3,
+    "fully_diluted_market_cap": 24900000.0
+  },
+  "holders": { "ibfr": 4646, "rbfr": 232 },
+  "staking": {
+    "locked_in_staking": 7235899.47,
+    "total_value_staked": 1801738.97
+  },
+  "locked_in_vesting": 58374508.19,
+  "locked_in_multisig": 15618780.08,
+  "locked_in_dex": { "pcs_v2": 1437656.07 }
+}
