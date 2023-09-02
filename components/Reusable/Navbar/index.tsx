@@ -18,15 +18,27 @@ const navlinks = [
     subTabs: [],
     isAvailable: true,
   },
+  // {
+  //   link: `https://app.buffer.finance/#/referral`,
+  //   name: "Referral",
+  //   subTabs: [],
+  //   isAvailable: true,
+  // },
+  // {
+  //   link: `https://app.buffer.finance/#/profile`,
+  //   name: "Profile",
+  //   subTabs: [],
+  //   isAvailable: true,
+  // },
   {
-    link: `https://app.buffer.finance/#/referral`,
-    name: "Referral",
+    link: `https://app.buffer.finance/#/dashboard`,
+    name: "Dashboard",
     subTabs: [],
     isAvailable: true,
   },
   {
-    link: `https://app.buffer.finance/#/profile`,
-    name: "Profile",
+    link: `https://stats.buffer.finance/`,
+    name: "Stats",
     subTabs: [],
     isAvailable: true,
   },
@@ -54,18 +66,7 @@ const navlinks = [
     subTabs: [],
     isAvailable: true,
   },
-  {
-    link: `https://app.buffer.finance/#/dashboard`,
-    name: "Dashboard",
-    subTabs: [],
-    isAvailable: true,
-  },
-  {
-    link: `https://stats.buffer.finance/`,
-    name: "Stats",
-    subTabs: [],
-    isAvailable: true,
-  },
+
   {
     link: `https://earn.buffer.finance/`,
     name: "Earn",
