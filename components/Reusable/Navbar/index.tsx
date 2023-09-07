@@ -86,7 +86,7 @@ const navlinks = [
     isAvailable: true,
   },
   {
-    link: "https://docs.buffer.finance/introduction/readme",
+    link: "https://docs.buffer.finance/readme",
     name: "Docs",
     subTabs: [],
     isAvailable: true,
