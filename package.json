@@ -38,7 +38,6 @@
     "web3": "^1.6.1"
   },
   "devDependencies": {
-    "@types/node": "^16.0.0",
     "@types/react": "^18.2.45",
     "autoprefixer": "^10.4.8",
     "eslint": "7.30.0",
