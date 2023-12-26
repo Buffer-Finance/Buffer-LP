@@ -33,7 +33,7 @@ const PartnersWrapper = styled.div`
 export const Partners = () => {
   return (
     <Section heading="Powered By">
-      <PartnersWrapper className="flex justify-between gap-5  mx-[200px] my-[50px] sm:mx-[2rem] tb:mx-[4rem] items-center ">
+      <PartnersWrapper className="flex justify-between gap-5  mx-[200px] mt-[50px] mb-[86px] sm:mx-[2rem] tb:mx-[4rem] items-center ">
         <Arbitrum className="sm:hidden logo" />
         <Ethereum className="sm:hidden logo" />
         <Polygon className="sm:hidden logo" />
