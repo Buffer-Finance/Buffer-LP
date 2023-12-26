@@ -15,10 +15,10 @@ const LandingPage: React.FC<ILandingPage> = ({}) => {
     <Background>
       <div className="w-full pl-3 pr-5"></div>
       <Main />
+      <Partners />
       <KeyFeatures />
       <OurTokens />
       <NFT />
-      <Partners />
     </Background>
   );
 };
