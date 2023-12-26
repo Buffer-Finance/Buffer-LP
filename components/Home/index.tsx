@@ -4,7 +4,7 @@ import { KeyFeatures } from "./Features/KeyFeatures";
 import Main from "./Main";
 import { NFT } from "./NFT";
 import { OurTokens } from "./OurTokens";
-import { Partners } from "./Partnets";
+import { Partners } from "./Partners";
 import Background from "./style";
 
 interface ILandingPage {}
