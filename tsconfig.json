@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -14,26 +18,33 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "baseUrl": "./",
-    "types": ["node"],
     "paths": {
-      "Views/*": ["src/views/*"],
-      "Hooks/*": ["src/hooks/*"],
-      "Contexts/*": ["src/contexts/*"],
-      "Utils/*": ["src/utils/*"],
-      "ABIs/*": ["src/ABIs/*"],
-      "Config/*": ["config/*"]
+      "Views/*": [
+        "src/views/*"
+      ],
+      "Hooks/*": [
+        "src/hooks/*"
+      ],
+      "Contexts/*": [
+        "src/contexts/*"
+      ],
+      "Utils/*": [
+        "src/utils/*"
+      ],
+      "ABIs/*": [
+        "src/ABIs/*"
+      ],
+      "Config/*": [
+        "config/*"
+      ]
     }
   },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx",
-    "components/Main/style.jsx",
-    "components/Stats/style.js",
-    "components/Collaborators/style.js",
-    "components/Home/style.js",
-    "hooks/useDeboucer.js",
-    "hooks/useDebouncer.ts"
+    "**/*.tsx"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
