@@ -1,14 +1,14 @@
 /* eslint-disable */
-import { useState } from "react";
-import Gradientbtn from "../Buttons/Gradientbtn";
-import { BufferIcon } from "../SVG";
-import Background from "./style";
-import BufferDropdown from "../BufferDropdown";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import MenuIcon from "@mui/icons-material/Menu";
 import Drawer from "@mui/material/Drawer";
 import { showNavbarTradeAtom } from "components/Home/Main";
 import { useAtom } from "jotai";
+import { useState } from "react";
+import BufferDropdown from "../BufferDropdown";
+import Gradientbtn from "../Buttons/Gradientbtn";
+import { BufferIcon } from "../SVG";
+import Background from "./style";
 interface INavbar {}
 
 const navlinks = [
@@ -86,7 +86,7 @@ const navlinks = [
     isAvailable: true,
   },
   {
-    link: "https://docs.buffer.finance/readme",
+    link: "https://docs.buffer.finance/",
     name: "Docs",
     subTabs: [],
     isAvailable: true,
