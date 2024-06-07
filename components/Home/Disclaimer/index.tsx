@@ -1,4 +1,5 @@
 import { Launch } from "@mui/icons-material";
+import React from "react";
 import { Warning } from "components/Reusable/Warning";
 import styled from "styled-components";
 const DisclaimerStyles = styled.div`
@@ -26,18 +27,12 @@ export const Disclaimer = () => {
     <DisclaimerStyles>
       <Warning
         text={
-          <div className="w-fit flex items-center m-auto">
-            <span className="bg-[#232334] text-[#10D2FF] text-f11 leading-[16px] px-3 rounded-[6px] font-semibold mr-3">
-              New
-            </span>
+          <div className="flex items-center m-auto w-fit">
             <a
-              href="https://mirror.xyz/0xc730FbdFEb3e9dF76008A19962963cA4A2bd8de2/QBllBUvSHl8QZHUpJyo5U0I_xb1MaxXgeDEK3Uyf9ZQ"
-              target="_blank"
-              className="m-auto"
+              className="flex items-baseline text-1"
+              href="https://mirror.xyz/0xc730FbdFEb3e9dF76008A19962963cA4A2bd8de2/ao87r3b-1Apd_3SAknXX-rHlhspngxCvscaX5vk4JCI"
             >
-              <span className="text-f14 font-extrabold text-[#232334] leading-[21px] sm:text-[11px] sm:leading-[12px]">
-                Buffer V2.6 is live. Unlock prediction markets with the best in-class UX. Learn more!
-              </span>
+              🚀&nbsp;Arbitrum LTIPP Incentives are Live on Buffer. Learn More &nbsp; <MemoExternalLinkSVG />
             </a>
           </div>
         }
@@ -49,3 +44,16 @@ export const Disclaimer = () => {
     </DisclaimerStyles>
   );
 };
+
+function ExternalLinkSVG(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg width={11} height={11} fill="none" {...props}>
+      <path
+        d="M7.07 0a.788.788 0 00-.557 1.343l1.016 1.014-3.37 3.374A.787.787 0 005.27 6.843L8.64 3.47l1.017 1.017A.786.786 0 0011 3.929V.786A.785.785 0 0010.214 0H7.07zM1.964.786A1.964 1.964 0 000 2.75v6.286C0 10.12.879 11 1.964 11h6.284a1.964 1.964 0 001.964-1.964V7.07a.785.785 0 10-1.571 0v1.965a.394.394 0 01-.393.393H1.964a.394.394 0 01-.393-.393V2.75c0-.216.177-.393.393-.393h1.964a.785.785 0 100-1.571H1.964z"
+        fill="#C3C2D4"
+      />
+    </svg>
+  );
+}
+
+const MemoExternalLinkSVG = React.memo(ExternalLinkSVG);

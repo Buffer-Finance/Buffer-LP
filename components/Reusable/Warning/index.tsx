@@ -15,7 +15,7 @@ export const Warning: React.FC<{
   // if (shouldRender)
   return (
     <div
-      className={`text-f16 sm:!text-f10 text-1 font-normal bg-1 rounded-[8px] mt-4 pl-7 pr-6 sm:px-5 py-4 tab:mb-1 hover:brightness-125 w-fit mx-auto transition-all duration-500 ${className} ${
+      className={`text-f16 sm:!text-f10 text-1 font-normal background-bar-gradient rounded-[8px] mt-4 pl-7 pr-6 sm:px-5 py-4 tab:mb-1 hover:brightness-125 w-fit mx-auto transition-all duration-500 ${className} ${
         shouldRender ? "translate-x-1" : "-translate-y-[100px]"
       }`}
     >

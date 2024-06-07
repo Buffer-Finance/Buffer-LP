@@ -69,7 +69,7 @@ const Main: React.FC<HeroSection> = () => {
   return (
     <Wrapper>
       <div className="full-width content-sbw main-wrapper persp">
-        <div className="hero-wrapper m-auto max-w-screen-sm text-center">
+        <div className="max-w-screen-sm m-auto text-center hero-wrapper">
           <h1 className="txt text-f64 font2 mob-text-center margin-nil font-medium pt-3 sm:pt-[0] capitalize">
             Options trading <span className="text-primary"> simplified.</span>
             {/* {count ? (
@@ -90,12 +90,12 @@ const Main: React.FC<HeroSection> = () => {
               ""
             )} */}
           </h1>
-          <div className="subtxt text-f18 text-2 mt-5 sm:text-f16">
+          {/* <div className="mt-5 subtxt text-f18 text-2 sm:text-f16">
             Buffer Finance is a non-custodial, exotic options trading platform built to trade short-term price
             volatility and hedge risk of high-leverage positions.
           </div>
           <Slider SliderArray={SliderArray} />
-          <div className="flex gap-3 flex-wrap justify-center items-stretch whitespace-nowrap" ref={bref}>
+          <div className="flex flex-wrap items-stretch justify-center gap-3 whitespace-nowrap" ref={bref}>
             <Gradientbtn
               onClick={() => {
                 window.open("https://app.buffer.finance/", "_blank");
@@ -104,7 +104,6 @@ const Main: React.FC<HeroSection> = () => {
             >
               Trade
             </Gradientbtn>
-            {/* <span title="Coming Soon!"> */}
             <SecondaryBtn
               onClick={() => {
                 window.open("https://earn.buffer.finance/", "_blank");
@@ -114,8 +113,7 @@ const Main: React.FC<HeroSection> = () => {
             >
               Earn Yield
             </SecondaryBtn>
-            {/* </span> */}
-          </div>
+          </div> */}
         </div>
 
         <div
