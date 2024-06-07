@@ -70,7 +70,7 @@ const Main: React.FC<HeroSection> = () => {
     setInterval(() => {
       setActiveTab((a) => (a + 1) % 3);
     }, 5000);
-  });
+  }, []);
   return (
     <Wrapper>
       <div className="full-width content-sbw main-wrapper persp">
