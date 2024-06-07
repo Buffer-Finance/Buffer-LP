@@ -19,7 +19,7 @@ export const Warning: React.FC<{
         shouldRender ? "translate-x-1" : "-translate-y-[100px]"
       }`}
     >
-      <div className="inline">{text}</div>
+      <div className="inline font-semibold text-[14px]">{text}</div>
       {shouldAllowClose && (
         <IconButton className="text-1 ml-4 sm:ml-[0px] sm:hidden inline" onClick={closeWarning}>
           <CloseOutlined />
