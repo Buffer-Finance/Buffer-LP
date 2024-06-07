@@ -90,7 +90,7 @@ const Main: React.FC<HeroSection> = () => {
               ""
             )} */}
           </h1>
-          {/* <div className="mt-5 subtxt text-f18 text-2 sm:text-f16">
+          <div className="mt-5 subtxt text-f18 text-2 sm:text-f16">
             Buffer Finance is a non-custodial, exotic options trading platform built to trade short-term price
             volatility and hedge risk of high-leverage positions.
           </div>
@@ -104,6 +104,7 @@ const Main: React.FC<HeroSection> = () => {
             >
               Trade
             </Gradientbtn>
+            {/* <span title="Coming Soon!"> */}
             <SecondaryBtn
               onClick={() => {
                 window.open("https://earn.buffer.finance/", "_blank");
@@ -113,7 +114,8 @@ const Main: React.FC<HeroSection> = () => {
             >
               Earn Yield
             </SecondaryBtn>
-          </div> */}
+            {/* </span> */}
+          </div>
         </div>
 
         <div
