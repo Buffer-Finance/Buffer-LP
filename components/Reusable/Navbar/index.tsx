@@ -60,12 +60,12 @@ const navlinks = [
     subTabs: [],
     isAvailable: true,
   },
-  {
-    link: `https://classic.app.buffer.finance/`,
-    name: "Trade(Classic)",
-    subTabs: [],
-    isAvailable: true,
-  },
+  // {
+  //   link: `https://classic.app.buffer.finance/`,
+  //   name: "Trade(Classic)",
+  //   subTabs: [],
+  //   isAvailable: true,
+  // },
 
   {
     link: `https://earn.buffer.finance/`,
@@ -134,7 +134,7 @@ const TabButton: React.FC<{ link: string; name: string; isAvailable?: boolean }>
     return (
       <div className="flex items-center mxxph sxxpv sf text-3 bold">
         <div className="cursor-default">{name}</div>
-        <div className="group relative">
+        <div className="relative group">
           <img src="/clock.png" alt="clock" className="ml-2" />
           <div className="invisible group-hover:visible absolute -right-8 top-6 w-fit whitespace-nowrap bg-1 py-2 px-4 rounded-[6px]">
             Coming Soon...
@@ -150,8 +150,8 @@ const Navbar: React.FC<INavbar> = ({}) => {
   return (
     <Background>
       <div className="flex items-center content-sbw nav-background ">
-        <div className="flex content-center items-center">
-          <div className="buffer-logo flex items-center mf bold  pointer">
+        <div className="flex items-center content-center">
+          <div className="flex items-center buffer-logo mf bold pointer">
             <BufferIcon className="buffer-icon" />
             <span className="text-1 sxxxpl"> Buffer </span>
           </div>
@@ -171,7 +171,7 @@ const Navbar: React.FC<INavbar> = ({}) => {
                   dropdownBox={(activeItem) => (
                     <div className="flex items-center dropdown-value items-c content-sbw sxxpv">
                       <div className="flex items-c">
-                        <div className=" sf s-txt capitalize bold">More</div>
+                        <div className="capitalize  sf s-txt bold">More</div>
                       </div>
                       <ArrowDropDownIcon className="arrow" />
                     </div>
@@ -190,7 +190,7 @@ const Navbar: React.FC<INavbar> = ({}) => {
                         handleClose();
                       }}
                     >
-                      <div className="dropdown-item-text s-txt capitalize">{singleItem.name}</div>
+                      <div className="capitalize dropdown-item-text s-txt">{singleItem.name}</div>
                     </div>
                   )}
                 />
@@ -202,7 +202,7 @@ const Navbar: React.FC<INavbar> = ({}) => {
               dropdownBox={(activeItem) => (
                 <div className="flex items-center dropdown-value items-c content-sbw sxxpv">
                   <div className="flex items-c">
-                    <div className=" sf s-txt capitalize bold">More</div>
+                    <div className="capitalize  sf s-txt bold">More</div>
                   </div>
                   <ArrowDropDownIcon className="arrow" />
                 </div>
@@ -224,7 +224,7 @@ const Navbar: React.FC<INavbar> = ({}) => {
                   <div className={SingleItem.name === "Mirror" ? "scale-110 mx-2" : ""}>
                     <SingleItem.Img />
                   </div>
-                  <div className="dropdown-item-text s-txt capitalize ml-2">{SingleItem.name}</div>
+                  <div className="ml-2 capitalize dropdown-item-text s-txt">{SingleItem.name}</div>
                 </div>
               )}
             /> */}
@@ -264,13 +264,13 @@ const Navbar: React.FC<INavbar> = ({}) => {
           }}
           className="close-icon"
         /> */}
-        <div className="buffer-logo flex items-center  justify-center mf bold  pointer mt-5 mb-6">
+        <div className="flex items-center justify-center mt-5 mb-6 buffer-logo mf bold pointer">
           <BufferIcon className="buffer-icon" />
           <span className="text-1 sxxxpl"> Buffer </span>
         </div>
         <div className="flex-col content-center">
           {navlinks.map((single) => (
-            <div className="mxxph sxxpv pointer nav-link-sidebar text-center sidebar-text">
+            <div className="text-center mxxph sxxpv pointer nav-link-sidebar sidebar-text">
               <a
                 href={single.link}
                 target="_blank"
@@ -285,7 +285,7 @@ const Navbar: React.FC<INavbar> = ({}) => {
             </div>
           ))}
         </div>
-        <div className="flex flex-row items-center justify-center flex-wrap gap-3 px-8 bbborderrr">
+        <div className="flex flex-row flex-wrap items-center justify-center gap-3 px-8 bbborderrr">
           {/* {social.map((S) => {
             return (
               <a className="unset" href={S.link} target="_blank">
