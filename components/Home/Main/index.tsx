@@ -107,7 +107,7 @@ const Main: React.FC<HeroSection> = () => {
             {/* <span title="Coming Soon!"> */}
             <SecondaryBtn
               onClick={() => {
-                window.open("https://earn.buffer.finance/", "_blank");
+                window.open("https://app.buffer.finance/#/lp-rewards", "_blank");
               }}
               class="btn-not-rounded btns w-[165px] font-medium"
               disabled={false}
