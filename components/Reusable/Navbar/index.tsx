@@ -30,12 +30,12 @@ const navlinks = [
   //   subTabs: [],
   //   isAvailable: true,
   // },
-  {
-    link: `https://app.buffer.finance/#/dashboard`,
-    name: "Dashboard",
-    subTabs: [],
-    isAvailable: true,
-  },
+  // {
+  //   link: `https://app.buffer.finance/#/dashboard`,
+  //   name: "Dashboard",
+  //   subTabs: [],
+  //   isAvailable: true,
+  // },
   {
     link: `https://stats.buffer.finance/`,
     name: "Stats",
@@ -171,7 +171,7 @@ const Navbar: React.FC<INavbar> = ({}) => {
                   dropdownBox={(activeItem) => (
                     <div className="flex items-center dropdown-value items-c content-sbw sxxpv">
                       <div className="flex items-c">
-                        <div className="capitalize  sf s-txt bold">More</div>
+                        <div className="capitalize sf s-txt bold">More</div>
                       </div>
                       <ArrowDropDownIcon className="arrow" />
                     </div>
@@ -202,7 +202,7 @@ const Navbar: React.FC<INavbar> = ({}) => {
               dropdownBox={(activeItem) => (
                 <div className="flex items-center dropdown-value items-c content-sbw sxxpv">
                   <div className="flex items-c">
-                    <div className="capitalize  sf s-txt bold">More</div>
+                    <div className="capitalize sf s-txt bold">More</div>
                   </div>
                   <ArrowDropDownIcon className="arrow" />
                 </div>
