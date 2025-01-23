@@ -1,4 +1,4 @@
-pp/* eslint-disable */
+/* eslint-disable */
 import React, { useRef } from "react";
 import Wrapper from "./style";
 import Gradientbtn, { SecondaryBtn } from "../../Reusable/Buttons/Gradientbtn";
