@@ -33,7 +33,7 @@ export const Disclaimer = () => {
               target="_blank"
               href="https://x.com/buffer_finance/status/1881740031653482971?s=46&t=HfZ9npL4AlVTsSlzpdbo8A"
             >
-                  Buffer Finance is Migrating to Hyperliquid 🤩. Stay tuned!!
+                  Buffer Finance is migrating to Hyperliquid 🤩. Stay tuned!!
             </a>
           </div>
         }
