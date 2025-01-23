@@ -31,9 +31,9 @@ export const Disclaimer = () => {
             <a
               className="flex items-baseline text-1"
               target="_blank"
-              href="https://mirror.xyz/0xc730FbdFEb3e9dF76008A19962963cA4A2bd8de2/ao87r3b-1Apd_3SAknXX-rHlhspngxCvscaX5vk4JCI"
+              href="https://x.com/buffer_finance/status/1881740031653482971?s=46&t=HfZ9npL4AlVTsSlzpdbo8A"
             >
-              🚀&nbsp;Arbitrum LTIPP Incentives are Live on Buffer. Learn More &nbsp; <MemoExternalLinkSVG />
+                  Buffer Finance is Migrating to Hyperliquid 🤩. Stay tuned!!
             </a>
           </div>
         }
